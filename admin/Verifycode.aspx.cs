@@ -20,7 +20,7 @@ public partial class admin_verifyCode : System.Web.UI.Page
 
         System.Random random = new Random();
 
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 6; i++)
         {
             number = random.Next();
             if (number % 2 == 0)

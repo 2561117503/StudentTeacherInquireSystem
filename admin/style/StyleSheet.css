@@ -1,0 +1,45 @@
+﻿
+/*login*/
+
+.loginbody{
+    background-image:url(../images/loginbgnew.png);
+    /*background-color:#f00;*/
+}
+.loginmain{
+    margin-left:400px;
+    margin-top:100px;
+    background-color:#eee;
+    width:600px;
+    height:400px;
+    text-align:center;
+}
+.controlstyle{
+    width:300px;
+    height:25px;
+    font-size:18px;
+    color:#921f1f;
+}
+.controlstyle3{
+    width:200px;
+    height:25px;
+    font-size:18px;
+    color:#921f1f;
+}
+.controlImagestyle
+{
+      width:90px;
+    height:27px;
+    margin-bottom:-10px;
+}
+.divstylemain{
+    height:80px;
+    margin-top:100px;
+}
+.divstyle{
+    margin-top:20px;
+}
+.logostyle{
+    margin-top:0px;
+    color:#93e1ac;
+    font-size:30px;
+}

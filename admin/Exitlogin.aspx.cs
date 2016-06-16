@@ -11,7 +11,7 @@ public partial class admin_Exitlogin : System.Web.UI.Page
     {
         Response.Cookies["username"].Value = "";
         Response.Cookies["username"].Expires = DateTime.Now.AddSeconds(-1);
-        HttpContext.Current.Response.Write(" <script language=javascript>parent.location.href= 'Login.aspx'; </script> ");
+        HttpContext.Current.Response.Write(" <script language=javascript>parent.location.href= 'newLogin.aspx'; </script> ");
 
     }
 }

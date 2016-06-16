@@ -35,7 +35,7 @@
                      <table>
                          <tr>
                              <td> <a href="Default.aspx">首页&nbsp;&nbsp;|&nbsp;&nbsp;</a> </td>
-                             <td> <a href="admin/Login.aspx">管理员登陆&nbsp;&nbsp;|&nbsp;&nbsp;</a> </td>
+                             <td> <a href="admin/NewLogin.aspx">管理员登陆&nbsp;&nbsp;|&nbsp;&nbsp;</a> </td>
                              <td> <a href="#">English&nbsp;&nbsp;</a> </td>
                          </tr>
                      </table>
