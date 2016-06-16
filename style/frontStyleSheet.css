@@ -1,0 +1,126 @@
+﻿body {
+    background-color:#F1F1F1;
+}
+
+a:link{
+    color:#000;
+    text-decoration:none;
+}
+a:hover{
+     color:#f00;
+    text-decoration:none;
+}
+
+
+.headTable1{
+    height:35px;
+    width:100%;
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color:#F1F1F1;
+}
+.headTable2{
+    height:60px;
+    width:100%;
+    background-color:#ffffff;
+    margin-top:0px;
+    margin-bottom:0px;
+    
+}
+.front1{
+    display:block;
+    font-size:18px;
+    font-family:'Microsoft YaHei UI';
+    color:#51595C;
+}
+.front2{
+    color:#2EAFBB;
+    font-size:12px;
+}
+
+.headTable3{
+    background-color:#2EAFBB;
+    height:40px;
+    width:100%;
+}
+
+.front3{
+    color:#fff;
+}
+
+.contentTable1{
+    width:75%;
+    height:40px;
+    align-content:center;
+    margin-top:20px;
+    border:1;
+    border-color:#E6E6E6;
+    background-color:#fff;
+}
+.contentTable2{
+    width:75%;
+    align-content:center;
+    margin-top:2px;
+    border:1;
+    border-color:#E6E6E6;
+    background-color:#fff;
+}
+
+.front4{
+    color:#2EAFBB;
+    align-content:center;
+    font-size:24px;
+    text-align:center;
+}
+
+.tdcenter{
+    text-align:center;
+    /*align-content:center;
+    align-items:center;
+    align-self:center;*/
+}
+
+.contentTable2{
+    background-color:#F6F6F6;
+    height: 220px;
+}
+.righttd{
+    text-align:right;
+}
+
+.footTable{
+    text-align:center;
+    align-content:center;
+    align-items:baseline;
+    width:100%;
+    color:#AAAAAA;
+    height: 74px;
+}
+
+.showBody{
+     background-color:#FFFFFF;
+}
+
+/*修改密码*/
+.table1{
+    background-color:#2EAFBB;
+    height:40px;
+}
+.tablefont1{
+    color:#ffffff;
+}
+
+.tdstuinfo{
+    text-align:right;
+}
+.tablecolor{
+    background-color:#F6F6F6;
+}
+
+.fontexplain{
+    align-content:top;
+}
+
+.fontcolorexplain{
+    color:#696969;
+}
