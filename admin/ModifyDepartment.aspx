@@ -51,7 +51,7 @@
              <td class="auto-style2">&nbsp;</td>
             <td class="auto-style1">&nbsp;</td>
             <td>
-                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">提交</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"  ForeColor="red" >提交</asp:LinkButton>
              </td>
         </tr>
     </table>

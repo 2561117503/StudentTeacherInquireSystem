@@ -28,7 +28,7 @@ body {
     <div>
         <table><tr><td>您当前的位置：系统管理管理  >>  修改密码</td></tr>
             </table>
-        <table style="width:100%; height: 263px;">
+        <table style="width:100%; height: 263px;padding:0px;margin:0px;" border="0">
             <tr>
                 <td colspan="2" class="auto-style1"><b>修改密码</b></td>
             </tr>

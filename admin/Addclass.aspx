@@ -31,14 +31,6 @@
         .auto-style9 {
             width: 706px;
         }
-         .auto-style10 {
-             width: 240px;
-             height: 45px;
-         }
-         .auto-style11 {
-             width: 108px;
-             height: 45px;
-         }
          .auto-style12 {
              width: 108px;
              height: 66px;
@@ -51,7 +43,15 @@
              height: 66px;
          }
          .auto-style15 {
-             height: 45px;
+             height: 27px;
+         }
+         .auto-style16 {
+             width: 108px;
+             height: 27px;
+         }
+         .auto-style17 {
+             height: 27px;
+             width: 240px;
          }
     </style>
 </head>
@@ -92,9 +92,9 @@
                              &nbsp;</td>
                     </tr>
                     <tr>
-                        <td class="auto-style11"></td>
-                       <td class="auto-style10">
-                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ValidationGroup="s1">添加</asp:LinkButton>
+                        <td class="auto-style16"></td>
+                       <td class="auto-style17">
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" ValidationGroup="s1"  ForeColor="red" >添加</asp:LinkButton>
                         </td>
                         <td class="auto-style15"></td>
                     </tr>
@@ -140,8 +140,8 @@
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="操作">
                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="edit">编辑</asp:LinkButton>                        
-                                <asp:LinkButton ID="LinkButton3" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="del">删除</asp:LinkButton>
+                                <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="edit"  ForeColor="red" >编辑</asp:LinkButton>                        
+                                <asp:LinkButton ID="LinkButton3" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="del"  ForeColor="red" > 删除</asp:LinkButton>
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>

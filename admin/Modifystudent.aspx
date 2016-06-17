@@ -80,9 +80,9 @@
                 <asp:TemplateField HeaderText="照片"><ItemTemplate><%#Eval("stuPic") %></ItemTemplate></asp:TemplateField>
                 <asp:TemplateField HeaderText="操作">
                    <ItemTemplate>
-                      <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%#Eval("id") %>' CommandName="see" >详细</asp:LinkButton>
-                      <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%#Eval("id") %>' CommandName="edit" >编辑</asp:LinkButton>
-                      <asp:LinkButton ID="LinkButton3" runat="server" CommandArgument='<%#Eval("id") %>' CommandName="del" >删除</asp:LinkButton>
+                      <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%#Eval("id") %>' CommandName="see"  ForeColor="red" >详细</asp:LinkButton>
+                      <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%#Eval("id") %>' CommandName="edit"  ForeColor="red" >编辑</asp:LinkButton>
+                      <asp:LinkButton ID="LinkButton3" runat="server" CommandArgument='<%#Eval("id") %>' CommandName="del"  ForeColor="red" >删除</asp:LinkButton>
                    </ItemTemplate>
                 </asp:TemplateField>
             </Columns>

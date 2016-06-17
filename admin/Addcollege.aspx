@@ -33,7 +33,7 @@
             width: 280px;
         }
         .auto-style9 {
-            width: 673px;
+            width: 1336px;
         }
     </style>
 </head>
@@ -57,7 +57,7 @@
                             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                         </td>
                          <td class="auto-style7">
-                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">添加</asp:LinkButton>
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"  ForeColor="red" >添加</asp:LinkButton>
                         </td>
                     </tr>
                     <tr>
@@ -91,15 +91,15 @@
 
                   <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" Width="243px"  OnRowCommand="GridView1_RowCommand">
                     <Columns>
-                        <asp:TemplateField HeaderText="学院名称">
+                        <asp:TemplateField HeaderText="学院名称" >
                             <ItemTemplate><%#Eval("collegeName") %></ItemTemplate>
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="操作">
                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="edit">编辑</asp:LinkButton>
+                                <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="edit"  ForeColor="red" >编辑</asp:LinkButton>
                            <%-- </ItemTemplate>
                              <ItemTemplate>--%>
-                                <asp:LinkButton ID="LinkButton3" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="del">删除</asp:LinkButton>
+                                <asp:LinkButton ID="LinkButton3" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="del"  ForeColor="red" >删除</asp:LinkButton>
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>

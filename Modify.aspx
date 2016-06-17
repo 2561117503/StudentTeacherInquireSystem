@@ -7,12 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <link rel="stylesheet" type="text/css" href="style/frontStyleSheet.css" />
-    <link href="style/kindeditor/themes/default/default.css" rel="stylesheet" />
-    <%--<link href="style/kindeditor/themes/simple/simple.css" rel="stylesheet" />--%>
-    <link href="style/kindeditor/plugins/code/prettify.css" rel="stylesheet" />
-    <script src="style/kindeditor/kindeditor.js"></script>
-    <script src="style/kindeditor/lang/zh_CN.js"></script>
-    <script src="style/kindeditor/plugins/code/prettify.js"></script>
+   
     <style type="text/css">
         .auto-style2 {
             width: 1050px;
@@ -52,28 +47,7 @@
         }
     </style>
 
-    <script>
-        KindEditor.ready(function (K) {
-            var editor1 = K.create('#TextBox1', {
-                cssPath: 'kindeditor/plugins/code/prettify.css',
-                uploadJson: 'kindeditor/asp.net/upload_json.ashx',
-                fileManagerJson: 'kindeditor/asp.net/file_manager_json.ashx',
-                allowFileManager: true,
-                afterCreate: function () {
-                    var self = this;
-                    K.ctrl(document, 13, function () {
-                        self.sync();
-                        K('form[name=example]')[0].submit();
-                    });
-                    K.ctrl(self.edit.doc, 13, function () {
-                        self.sync();
-                        K('form[name=example]')[0].submit();
-                    });
-                }
-            });
-            prettyPrint();
-        });
-	</script>
+   
 
 </head>
 <body>

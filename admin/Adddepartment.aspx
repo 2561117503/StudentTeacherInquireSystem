@@ -57,7 +57,7 @@
                             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                         </td>
                          <td class="auto-style7">
-                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">添加</asp:LinkButton>
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" BackColor="#ffffff" ForeColor="red" Font-Size="Larger">添加</asp:LinkButton>
                         </td>
                     </tr>
                     <tr>
@@ -99,10 +99,10 @@
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="操作">
                             <ItemTemplate>
-                                <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="edit">编辑</asp:LinkButton>
+                                <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="edit" ForeColor="red">编辑</asp:LinkButton>
                            <%-- </ItemTemplate>
                              <ItemTemplate>--%>
-                                <asp:LinkButton ID="LinkButton3" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="del">删除</asp:LinkButton>
+                                <asp:LinkButton ID="LinkButton3" runat="server" CommandArgument='<%#Eval("id")%>' CommandName="del" ForeColor="red ">删除</asp:LinkButton>
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>

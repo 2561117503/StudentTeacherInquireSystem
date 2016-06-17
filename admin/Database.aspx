@@ -15,7 +15,7 @@
                  }
 
         .auto-style1 {
-            width: 108px;
+            width: 5px;
         }
         .auto-style2 {
             height: 52px;
@@ -51,7 +51,7 @@
             width: 204px;
         }
         .auto-style11 {
-            width: 2px;
+            width: 12px;
         }
     </style>
 </head>
@@ -73,9 +73,7 @@
             <tr>
                 <td class="auto-style4"></td>
                 <td class="auto-style5">
-                    <asp:Button ID="Button1" runat="server" Text="点击备份" OnClick="Button1_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:HyperLink ID="HyperLink1" runat="server">备份数据库下载地址</asp:HyperLink>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="Button1" runat="server" Text="点击备份" OnClick="Button1_Click" />
                 </td>
             </tr>
             <tr>

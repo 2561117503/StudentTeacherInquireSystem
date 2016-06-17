@@ -21,20 +21,20 @@ public partial class admin_Database : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         sqlHelp sqlhelper = new sqlHelp();
-        strFilename = "YNNU" + DateTime.Now.ToString("yyyyMMdd") + ".bak";
+        strFilename = "StudentTeacherInquerySystemDBBACKUP" + DateTime.Now.ToString("yyyyMMdd") + ".bak";
         strFile = strPath + "/" + strFilename;
-        strSql = "BACKUP DATABASE StudentTeacherInquireSystem to DISK='"+strFile+"'";
+        strSql = "BACKUP DATABASE StudentTeacherInquerySystemDB to DISK='" + strFile + "'";
         try
         {
             sqlhelper.SqlServerExcute(strSql);
             Label1.Text = "数据库备份成功，请点击上面，下载到本地磁盘备份！";
-            HyperLink1.NavigateUrl = "../App_Data" + strFilename;
-            HyperLink1.Visible = true;
+            //HyperLink1.NavigateUrl = "../App_Data/" + strFilename;
+            //HyperLink1.Visible = true;
         }
         catch(Exception ex)
         {
             Label1.Text = "备份数据库出错，错误信息为：" + ex.Message;
-            HyperLink1.Visible = false;
+            //HyperLink1.Visible = false;
         }
         finally
         {

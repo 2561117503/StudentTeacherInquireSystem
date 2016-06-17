@@ -13,7 +13,8 @@ public partial class Modify : System.Web.UI.Page
     {
         if(!IsPostBack)
         {
-            string id=Request.QueryString["id"];
+            string id = Request.QueryString["id"];
+            //string id = "72";
             if(id!="")
             {
                 sqlHelp sqlhelper = new sqlHelp();
@@ -36,11 +37,12 @@ public partial class Modify : System.Web.UI.Page
     protected void LinkButton1_Click(object sender, EventArgs e)
     {
         string id = Request.QueryString["id"];
+        //string id = "72";
         sqlHelp sqlhelper = new sqlHelp();
-        string selectsql = "select * from studentInfo where id='" + id + "'";
+        string changerequest = TextBox1.Text.ToString();
         if(!string.IsNullOrEmpty(TextBox1.Text))
         {
-            string updatesql="update studentInfo set stuChangerequest='"+TextBox1.Text+"'where id='"+id+"'";
+            string updatesql="update studentInfo set stuChangerequest='"+changerequest+"'where id='"+id+"'";
             sqlhelper.SqlServerExcute(updatesql);
             Response.Write("<script>alert('提交变更信息成功，请耐心等待管理员审核！')</script>");
         }

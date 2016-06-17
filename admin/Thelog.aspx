@@ -22,7 +22,7 @@
 
 
 
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="1201px">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="1148px">
             <Columns>
                 <asp:BoundField DataField="loginname" HeaderText="登录名" SortExpression="loginname" />
                 <asp:BoundField DataField="loginState" HeaderText="登陆状态" SortExpression="loginState" />
