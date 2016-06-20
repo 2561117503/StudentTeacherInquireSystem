@@ -27,7 +27,7 @@ public partial class admin_Database : System.Web.UI.Page
         try
         {
             sqlhelper.SqlServerExcute(strSql);
-            Label1.Text = "数据库备份成功，请点击上面，下载到本地磁盘备份！";
+            Label1.Text = "数据库备份成功！";
             //HyperLink1.NavigateUrl = "../App_Data/" + strFilename;
             //HyperLink1.Visible = true;
         }
