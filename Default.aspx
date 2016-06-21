@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>学生-教师信息查询</title>
+    <title>学生-教师信息查询系统</title>
     <link type="text/css" href="style/frontStyleSheet.css" rel="stylesheet" />
     <style type="text/css">
         .auto-style2 {
@@ -38,6 +38,7 @@
                          <tr>
                              <td> <a href="Default.aspx">首页&nbsp;&nbsp;|&nbsp;&nbsp;</a> </td>
                              <td> <a href="admin/NewLogin.aspx">管理员登陆&nbsp;&nbsp;|&nbsp;&nbsp;</a> </td>
+                              <td> <a href="YNNU/Default.aspx"  target="_blank">师大首页&nbsp;&nbsp;|&nbsp;&nbsp;</a> </td>
                              <td> <a href="#">English&nbsp;&nbsp;</a> </td>
                          </tr>
                      </table>
