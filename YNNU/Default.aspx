@@ -6,8 +6,8 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link type="text/css" href="style/indexcss.css" rel="stylesheet" />
-    <link rel="stylesheet" id="cssLink" href="http://www.ynnu.edu.cn/style/default.css" type="text/css" media="all"  />
-    <%--<link href="style/StyleSheet.css" rel="stylesheet" />--%>
+    <%--<link rel="stylesheet" id="cssLink" href="http://www.ynnu.edu.cn/style/default.css" type="text/css" media="all"  />--%>
+    <link href="style/StyleSheet.css" rel="stylesheet" />
     <title>云南师范大学</title>
   
 
@@ -80,11 +80,11 @@ li{
 <ul class="nav" id="nav_139692516667465756">
 <li class ="" onMouseMove="showsonnav('navi_1004000201')" onMouseOut="hiddensonnav('navi_1004000201')">
 <a class="topname"  href="#" target="_self">
-<span>首页</span></a>
+<span style="color:#443941">首页</span></a>
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000202')" onMouseOut="hiddensonnav('navi_1004000202')">
 <a class="topname" href="#" target="_self">
-<span>学校概览</span></a>
+<span style="color:#443941">学校概览</span></a>
 <ul class="sub" id="navi_1004000202" name="navi_1004000202" style="display:none" onMouseMove="showsonnav('navi_1004000202')" onMouseOut="hiddensonnav('navi_1004000202')">
 <!--[if lte IE 6]><iframe class='navbug'></iframe><![endif]-->
 <li id="navson_100400020201">
@@ -105,7 +105,7 @@ li{
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000206')" onMouseOut="hiddensonnav('navi_1004000206')">
 <a class="topname" href="#" target="_self">
-<span>机构设置</span></a>
+<span style="color:#443941">机构设置</span></a>
 <ul class="sub" id="navi_1004000206" name="navi_1004000206" style="display:none" onMouseMove="showsonnav('navi_1004000206')" onMouseOut="hiddensonnav('navi_1004000206')">
 <!--[if lte IE 6]><iframe class='navbug'></iframe><![endif]-->
 <li id="navson_1004000207">
@@ -120,7 +120,7 @@ li{
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000208')" onMouseOut="hiddensonnav('navi_1004000208')">
 <a class="topname" href="#" target="_self">
-<span>教育教学</span></a>
+<span style="color:#443941">教育教学</span></a>
 <ul class="sub" id="navi_1004000208" name="navi_1004000208" style="display:none" onMouseMove="showsonnav('navi_1004000208')" onMouseOut="hiddensonnav('navi_1004000208')">
 <li id="navson_100400020801">
 <a href="#" target="_self">师资队伍</a></li>
@@ -140,7 +140,7 @@ li{
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000209')" onMouseOut="hiddensonnav('navi_1004000209')">
 <a class="topname"  href="#" target="_self">
-<span>科学研究</span></a>
+<span style="color:#443941">科学研究</span></a>
 <ul class="sub" id="navi_1004000209" name="navi_1004000209" style="display:none" onMouseMove="showsonnav('navi_1004000209')" onMouseOut="hiddensonnav('navi_1004000209')">
 <li id="navson_100400020903">
 <a href="#" target="_self">研究机构</a></li>
@@ -164,7 +164,7 @@ li{
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000210')" onMouseOut="hiddensonnav('navi_1004000210')">
 <a class="topname"  href="#" target="_self">
-<span>招生就业</span></a>
+<span style="color:#443941">招生就业</span></a>
 <ul class="sub" id="navi_1004000210" name="navi_1004000210" style="display:none" onMouseMove="showsonnav('navi_1004000210')" onMouseOut="hiddensonnav('navi_1004000210')">
 <li id="navson_10040002100101">
 <a href="#" target="_self">本科生招生</a></li>
@@ -184,11 +184,11 @@ li{
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000214')" onMouseOut="hiddensonnav('navi_1004000214')">
 <a class="topname"  href="#" target="_self">
-<span>国际交流</span></a>
+<span style="color:#443941">国际交流</span></a>
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000211')" onMouseOut="hiddensonnav('navi_1004000211')">
 <a class="topname"  href="#" target="_self">
-<span>公共服务</span></a>
+<span style="color:#443941">公共服务</span></a>
 <ul class="sub" id="navi_1004000211" name="navi_1004000211" style="display:none" onMouseMove="showsonnav('navi_1004000211')" onMouseOut="hiddensonnav('navi_1004000211')">
 <li id="navson_100400021103">
 <a href="#" target="_self">师大校历</a></li>
@@ -199,7 +199,7 @@ li{
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000212')" onMouseOut="hiddensonnav('navi_1004000212')">
 <a class="topname"  href="#" target="_self">
-<span>校园文化</span></a>
+<span style="color:#443941">校园文化</span></a>
 <ul class="sub" id="navi_1004000212" name="navi_1004000212" style="display:none" onMouseMove="showsonnav('navi_1004000212')" onMouseOut="hiddensonnav('navi_1004000212')">
 <li id="navson_100400021223">
 <a href="#" target="_self">办学理念</a></li>
@@ -211,11 +211,11 @@ li{
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000216')" onMouseOut="hiddensonnav('navi_1004000216')">
 <a class="topname"  href="#" target="_self">
-<span>扶贫工作</span></a>
+<span style="color:#443941">扶贫工作</span></a>
 </li>
 <li class ="" onMouseMove="showsonnav('navi_1004000213')" onMouseOut="hiddensonnav('navi_1004000213')">
 <a class="topname"  href="#" target="_self">
-<span>专题网站</span></a>
+<span style="color:#443941">专题网站</span></a>
 <ul class="sub" id="navi_1004000213" name="navi_1004000213" style="display:none" onMouseMove="showsonnav('navi_1004000213')" onMouseOut="hiddensonnav('navi_1004000213')">
 <li id="navson_100400021308">
 <a href="#" target="_self">西南联大讲坛</a></li>
@@ -242,9 +242,9 @@ li{
 </script>
 </div></div>
 
-        <div style="background-color:#443941; width:25px;height:29px; float:left;margin-top:-29px;margin-left:980px;">
+      <%--  <div style="background-color:#443941; width:25px;height:29px; float:left;margin-top:-29px;margin-left:980px;">
 
-        </div>
+        </div>--%>
 
          <table style="width:1002px;" align="center" cellspacing="0" cellpadding="0">
             <tr>

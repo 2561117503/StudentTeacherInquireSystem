@@ -1,1 +1,609 @@
-﻿
+﻿html {
+	width: 100%;
+	text-align: center;
+	font-size:12px;
+}
+
+body{
+	font-family: arial,'新宋体',sans-serif,'宋体';
+	line-height: 150%;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style:normal;
+}
+
+ul,li{list-style:none;}
+
+h1,h2,h3,h4,h5,h6,td,th,div,button,input,select{
+	font-size: 100%;
+	font-weight: normal;
+}
+
+strong,b{
+	font-weight: bold;
+}
+
+body {
+	background-image:url(http://www.ynnu.edu.cn/systemUpload/141335286383766081.jpg);
+	background-repeat:no-repeat;
+}
+
+a:link {
+	color:#000;
+	text-decoration:none;
+}
+a:visited {
+	color:#000;
+	text-decoration:none;
+}
+a:hover {
+	color:#000;
+	text-decoration:none;
+}
+a:active {
+	color:#000;
+	text-decoration:none;
+}
+
+.body_main {
+	background-image:url(/style/systemUpload/141438852546530601.jpg);
+}
+	.body_main{
+    width:100%;
+    min-width:1190px;
+    margin:0px;
+    padding:0px;
+    background-image:url(/style/systemUpload/141438852546530601.jpg);
+}
+
+div{
+    /*border:1px solid red;*/
+}
+
+.topframe_3_2_2{
+width:980px;
+height:385px;
+background-color:#484649;}
+.picChange_139725729497446552  {
+}
+
+.picChange_139725729497446552 h3 {
+    display:none;
+}
+.topframe_3_2_1{
+width:980px;
+height:33px;
+background-image:url(/style/systemUpload/139716826039259778.jpg);
+padding:0px;
+position:relative;}
+.navigation_139692516667465756  {
+    padding:0px;
+    margin:0px; 
+}
+.navigation_139692516667465756 h3 {
+}
+.navigation_139692516667465756 h3 span {
+}
+.navigation_139692516667465756 h3 a {
+}
+.navigation_139692516667465756 .nav {
+	font-family:'宋体';
+	font-size:13px;
+          padding:0px;
+}
+.navigation_139692516667465756 .nav li {
+          line-height:35px;
+          margin:0px 5px;
+	z-index:999;
+          font-weight:bold;
+          display:inline-block;/*IE8以上*/
+          /*IE8一下inline-block的实现*/
+          zoom:1;
+          *display:inline;
+          height:33px;
+}
+.navigation_139692516667465756 .nav li a {
+          color:#FDFDFA;
+          padding:5px;
+}
+.navigation_139692516667465756 .nav li a:link {
+	color:#FDFDFA;
+}
+.navigation_139692516667465756 .nav li a:visited {
+	color:#FDFDFA;
+}
+.navigation_139692516667465756 .nav li a:hover {
+	color:#FDFDFA;
+         background-color:#C5BCAF;
+}
+.navigation_139692516667465756 .nav li a:active {
+	color:#FDFDFA;
+}
+.navigation_139692516667465756 .nav a.topname {
+}
+.navigation_139692516667465756 .nav li.current {
+
+}
+.navigation_139692516667465756 .nav li.current a.topname {
+    background-color:#C5BCAF;
+    color:#FDFDFA;
+}
+.navigation_139692516667465756 .nav .sub {
+	position: absolute;
+	left:0px;
+	top:33px;
+	width:940px;
+	padding:10px 20px;
+	background:#000;
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+.navigation_139692516667465756 .nav .sub li {
+          height:20px;
+	float: left; 
+	padding:0px;
+	text-align:left;
+	z-index:999px;
+	margin:0px 4px;
+	position:relative;
+          display:inline;
+          white-space:nowrap;
+}
+.navigation_139692516667465756 .nav .sub li a {
+          font-family:'宋体'!important;
+          font-weight:bold!important;
+	font-size:12px !important;
+
+	color:#FFFE86!important;
+	width:100%;
+          height:20px;
+          line-height:20px;
+	display:block;
+          padding:0px 6px;
+}
+
+ .navigation_139692516667465756 .nav .sub li a:hover{ 
+	text-decoration:none; 
+	color:#ff000!important; 
+         display:block;
+}
+.topframe_2{
+	background-image:url(http://www.ynnu.edu.cn//style/systemUpload/139805144597076391.png);
+height:100px;}
+.urlportlet_139691975630076488 {
+width:100%;
+height:29px;
+}
+.urlportlet_139691975630076488 h3 {
+display:none;
+}
+
+.urlportlet_139691975630076488 ul {
+float:right;
+width: 183px;
+margin-top: 21px;
+}
+.urlportlet_139691975630076488 ul li {
+height:14px;
+line-height:16px;
+float:left;
+text-align:center;
+}
+.urlportlet_139691975630076488 ul li a {
+color:#fff !important;
+font-family:'Microsoft Yahei Font','微软雅黑','Arial';
+font-size:14px;
+text-decoration:none;
+}
+.mainframe_2_1_1{
+width:275px;
+height:260px;
+float:left;
+margin:0px 4px 0px 5px}
+.newsPicControl_139766329629751964  {
+    height: 360px;
+    width: 275px;
+    margin-top:20px;
+    overflow:hidden;
+}
+.newsPicControl_139766329629751964 h3 {
+    display:none;
+}
+.newsPicControl_139766329629751964 h3 span {
+}
+
+.newsPicControl_139766329629751964 h3 a {
+    font-family:Arial !important;
+    font-size:12px;
+    color:#696969 !important;
+    text-decoration:none; 
+    margin-left:145px;  
+}
+.newsPicControl_139766329629751964 h4 {
+    margin:5px 0px;
+}
+.newsPicControl_139766329629751964 ul {
+}
+.newsPicControl_139766329629751964 ul li {
+}
+.newsPicControl_139766329629751964 ul li a {
+}
+.newsPicControl_139766329629751964 .new {
+}
+.newsPicControl_139766329629751964 .time {
+}
+
+.topframe_3_2{
+width:980px;
+height:419px;
+float:left;}
+.mainframe_2_1_3{
+width:297px;
+height:240px;
+float:left;
+margin:10px 15px;}
+.newslist_139742749463978589  {
+    width:297px;
+	height:240px;
+	overflow:hidden;
+}
+
+.newslist_139742749463978589 h3 {
+    font-family:'黑体';
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:2px 10px;
+	color:#A52F7C;
+	border-bottom:3px solid #AFADAE;
+}
+.newslist_139742749463978589 h3 span {
+}
+.newslist_139742749463978589 h3 a {
+    font-family:Arial !important;
+    font-size:12px;
+    color:#696969 !important;
+    text-decoration:none; 
+    margin-left:180px;  
+}
+.newslist_139742749463978589 ul {
+    
+}
+.newslist_139742749463978589 ul li {
+    width:272px;
+	margin:7px 5px;
+	border-bottom:2px dotted #AFADAE;
+	font-family:'新宋体' !important;
+	font-size:12px;
+	text-align:left;
+	position:relative;
+	padding-left:15px;
+	background:url(/style/systemUpload/139765340483795950.jpg) no-repeat;
+}
+.newslist_139742749463978589 ul li .type {
+}
+.newslist_139742749463978589 ul li a {
+
+}
+.newslist_139742749463978589 ul li .new {
+}
+.newslist_139742749463978589 ul li .time {
+   position:absolute;
+   top:0px;
+   left:247px;
+}
+.topframe_3_1{
+width:101px;
+height:419px;
+float:left;
+filter:alpha(opacity=60);
+opacity:0.6;}
+.mainframe_2_1_2{
+width:297px;
+height:240px;
+float:left;
+margin:10px 15px;}
+.newslist_140229785911196705  {
+    width:297px;
+	height:240px;
+	overflow:hidden;
+}
+
+.newslist_140229785911196705 h3 {
+    font-family:'黑体';
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:2px 10px;
+	color:#A52F7C;
+	border-bottom:3px solid #AFADAE;
+}
+.newslist_140229785911196705 h3 span {
+}
+.newslist_140229785911196705 h3 a {
+    font-family:Arial !important;
+    font-size:12px;
+    color:#696969 !important;
+    text-decoration:none; 
+    margin-left:180px;  
+}
+.newslist_140229785911196705 ul {
+    
+}
+.newslist_140229785911196705 ul li {
+    width:272px;
+	margin:7px 5px;
+	border-bottom:2px dotted #AFADAE;
+	font-family:'新宋体' !important;
+	font-size:12px;
+	text-align:left;
+	position:relative;
+	padding-left:25px;
+	background:url(/style/systemUpload/139765340483795950.jpg) no-repeat;
+}
+.newslist_140229785911196705 ul li .type {
+}
+.newslist_140229785911196705 ul li a {
+
+}
+.newslist_140229785911196705 ul li .new {
+}
+.newslist_140229785911196705 ul li .time {
+   position:absolute;
+   top:0px;
+   left:247px;
+}
+.topframe_3{
+}
+.mainframe_2_2_4_1{
+}
+.newslist_141333802090141619  {
+    width:276px;
+	height:140px;
+	overflow:hidden;
+}
+
+.newslist_141333802090141619 h3 {
+    font-family:'黑体';
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:2px 10px;
+	color:#A52F7C;
+	border-bottom:3px solid #AFADAE;
+}
+.newslist_141333802090141619 h3 span {
+}
+.newslist_141333802090141619 h3 a {
+    font-family:Arial !important;
+    font-size:12px;
+    color:#696969 !important;
+    text-decoration:none; 
+    margin-left:159px;  
+}
+.newslist_141333802090141619 ul {
+    
+}
+.newslist_141333802090141619 ul li {
+    width:251px;
+	margin:7px 5px;
+	border-bottom:2px dotted #AFADAE;
+	font-family:'新宋体' !important;
+	font-size:12px;
+	text-align:left;
+	position:relative;
+	padding-left:15px;
+	background:url(/style/systemUpload/139765340483795950.jpg) no-repeat;
+}
+.newslist_141333802090141619 ul li .type {
+}
+.newslist_141333802090141619 ul li a {
+
+}
+.newslist_141333802090141619 ul li .new {
+}
+.newslist_141333802090141619 ul li .time {
+   position:absolute;
+   top:0px;
+   left:226px;
+}
+.mainframe_3{
+width:102px;
+height:540px;
+float:left;
+filter:alpha(opacity=50);
+opacity:0.5;}
+.mainframe_2{
+width:980px;
+height:540px;
+float:left;
+padding:0px;
+background-color:#fff;}
+.mainframe_1{
+width:101px;
+height:540px;
+float:left;
+filter:alpha(opacity=60);
+opacity:0.6;}
+.botframe{
+height:76px;
+width:1190px;
+margin:0px auto;}
+.mainframe_2_1{
+margin:20px 21px 0px 21px;
+height:260px;}
+.mainframe_2_2{
+margin:0px 21px;
+height:260px;}
+.otherframe{
+display:none;}
+.botframe_2_1{
+float:left;}
+.textdisplay_139726980490393217  {
+    position:absolute;
+    top:19px;
+    left:75px;
+}
+.textdisplay_139726980490393217 h3 {
+    display:none;
+}
+.textdisplay_139726980490393217 h3 span {
+}
+.textdisplay_139726980490393217 h3 a {
+}
+.textdisplay_139726980490393217 .con {
+    font-size: 12px; 
+    font-family: 'Microsoft Yahei Font'; 
+    color: #2B2B2B;
+    text-align:left;
+}
+.botframe_2_2{
+float:left;}
+.textdisplay_139727155014919706  {
+    position:absolute;
+    top:19px;
+    left:575px;
+}
+.textdisplay_139727155014919706 h3 {
+    display:none;
+}
+.textdisplay_139727155014919706 h3 span {
+}
+.textdisplay_139727155014919706 h3 a {
+}
+.textdisplay_139727155014919706 .con {
+    font-size: 12px; 
+    font-family: 'Microsoft Yahei Font'; 
+    color: #2B2B2B;
+    text-align:left;
+}
+.topframe_3_3{
+width:102px;
+height:419px;
+float:left;
+filter:alpha(opacity=50);
+opacity=0.5;}
+.topframe{
+width:1190px;
+height:519px;
+margin:0 auto;}
+.mainframe_2_2_1{
+	background-image:url(http://www.ynnu.edu.cn//style/systemUpload/141335121621827706.jpg);
+width:276px;
+height:109px;
+margin:0px 5px 0px 0px;
+float:left;
+filter:alpha(opacity=30);
+opacity:0.3;}
+.mainframe_2_2_2{
+width:297px;
+float:left;
+margin:0px 15px;}
+.newslist_140567135933021093  {
+    width:297px;
+	height:240px;
+	overflow:hidden;
+}
+
+.newslist_140567135933021093 h3 {
+    font-family:'黑体';
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:2px 10px;
+	color:#A52F7C;
+	border-bottom:3px solid #AFADAE;
+}
+.newslist_140567135933021093 h3 span {
+}
+.newslist_140567135933021093 h3 a {
+    font-family:Arial !important;
+    font-size:12px;
+    color:#696969 !important;
+    text-decoration:none; 
+    margin-left:180px;  
+}
+.newslist_140567135933021093 ul {
+    
+}
+.newslist_140567135933021093 ul li {
+    width:272px;
+	margin:7px 5px;
+	border-bottom:2px dotted #AFADAE;
+	font-family:'新宋体' !important;
+	font-size:12px;
+	text-align:left;
+	position:relative;
+	padding-left:15px;
+	background:url(/style/systemUpload/139765340483795950.jpg) no-repeat;
+}
+.newslist_140567135933021093 ul li .type {
+}
+.newslist_140567135933021093 ul li a {
+
+}
+.newslist_140567135933021093 ul li .new {
+}
+.newslist_140567135933021093 ul li .time {
+   position:absolute;
+   top:0px;
+   left:247px;
+}
+.mainframe_2_2_3{
+width:297px;
+float:left;
+margin:0px 15px 0px 18px;}
+.picurlportlet_139742034154345757  {
+    margin-top:20px;
+}
+.picurlportlet_139742034154345757 h3 {
+    display:none;
+}
+.picurlportlet_139742034154345757 h3 span {
+}
+.picurlportlet_139742034154345757 h3 a {
+}
+.picurlportlet_139742034154345757 ul {
+}
+.picurlportlet_139742034154345757 ul li {
+    margin-bottom:7px;
+}
+.picurlportlet_139742034154345757 ul li a {
+}
+.picurlportlet_139742034154345757 img {
+}
+.picurlportlet_139742034154345757 p {
+}
+
+.mainframe_2_2_4{
+width:276px;
+height:260px;
+float:left;
+margin:0px 5px 0px 0px;}
+.mainframe{
+height:540px;
+width:1190px;
+margin:0px auto;}
+.botframe_3{
+width:102px;
+height:76px;
+float:left;}
+.botframe_2{
+	background-image:url(http://www.ynnu.edu.cn//style/systemUpload/139727071625732425.jpg);
+position:relative;
+top:0px;
+left:0px;
+width:980px;
+height:76px;
+float:left;}
+.botframe_1{
+width:101px;
+height:76px;
+float:left;}
